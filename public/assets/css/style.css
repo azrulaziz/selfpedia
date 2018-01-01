@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+/*h1 {*/
+/*    color: #fff;*/
+/*}*/
+
+.random {
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #425a82;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.random:hover {
+    background-color: #425a82;
+}
