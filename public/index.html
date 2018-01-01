@@ -7,16 +7,20 @@
         <title>Selfpedia</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/button.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/form.min.css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     </head>
     <body>
-        <h1>Welcome to Selfpedia</h1>
-        <form>
-            <input type="text" name="search" id="searchForm"/>
-            <input type="submit" name="searchButton" value="Search" />
+        <h1>Selfpedia</h1>
+        <form class="ui form">
+            <div class="field">
+                <input type="text" name="search" id="searchForm"/>
+                <button class="ui teal basic button" name="searchButton" id="searchButton">Search</button>
+            </div>
         </form>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="ui blue basic button">Randomizer</button></a>
         
-        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="random">Randomizer</button></a>
+        
         <div class="content"></div>
         
         <script type="text/javascript" src="assets/scripts/app.js"></script>
