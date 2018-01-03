@@ -12,9 +12,9 @@ Objective:
 - test append it to a div DONE
 
 # setup the wiki api 
-- setup ajax calls
-- get the url to get JSON data from the api
-- loop thru the JSON and output the data to the page
+- setup ajax calls DONE
+- get the url to get JSON data from the api DONE
+- loop thru the JSON and output the data to the page DONE
 
 # try to use jquery autocomplete to make the search form respond with possible results while user is typing
-
+- future updates
