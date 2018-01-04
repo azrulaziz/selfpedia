@@ -3,10 +3,91 @@ html, body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: white;
+    height: 100%;
+    width: 100%;
 }
 
-form {
+
+.wrapper {
+    background: black;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /*display: grid;*/
+    height: 100%;
+    /*justify-items: center;*/
+    text-align: center;
+    /*align-items: center;*/
+    
+}
+
+.titleForm {
+    padding-top: 200px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 15px;    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 10px;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content h2 {
+    color: #23527c;
+}
+
+a {
+    
+    text-decoration: none;
+    font-size: 1em;
+    justify-self: center;
+    align-self: center;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+
+.content p {
+    font-size: 0.8em;
+    color: white;
+}
+
+#searchForm {
+    display: block;
+    margin: 10px auto;
+    border-style: none;
+    border-bottom: 2px solid #fff;
     width: 300px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    /*box-shadow: 0 3px 2px rgba(255, 255, 255, 0.6);*/
 }
 
+@media (max-width: 768px) {
+    .content {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-gap: 10px;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+}

@@ -16,5 +16,15 @@ Objective:
 - get the url to get JSON data from the api DONE
 - loop thru the JSON and output the data to the page DONE
 
-# try to use jquery autocomplete to make the search form respond with possible results while user is typing
-- future updates
+# write script to handle user interaction
+- if user type enter/search on form, the form will slide up and result will append below it DONE
+- once user clear the form for another search, result appended before should be cleared as well to make space for new result DONE
+- if user enter once again, past result should be cleared to make space for new result that has been entered DONE
+- add cancel button on the search form to clear the text 
+
+
+
+
+
+<!--# try to use jquery autocomplete to make the search form respond with possible results while user is typing-->
+<!--- future updates-->
