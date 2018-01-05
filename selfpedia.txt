@@ -3,24 +3,28 @@ Wikipedia Viewer App
 Objective:
 
 # get random articles from wiki by pressing a button 
+______________________________________________________
 - create a button & open a new tab redirect to random wiki site when pressed. DONE
 
-# setup the form to retrieve value from the text input 
+# setup the form to retrieve value from the text input
+______________________________________________________
 - get the value from the search form when user press enter      DONE
 - get the value from the search form when user press search button DONE
 - save the value to a var DONE
 - test append it to a div DONE
 
 # setup the wiki api 
+______________________________________________________
 - setup ajax calls DONE
 - get the url to get JSON data from the api DONE
 - loop thru the JSON and output the data to the page DONE
 
 # write script to handle user interaction
+______________________________________________________
 - if user type enter/search on form, the form will slide up and result will append below it DONE
 - once user clear the form for another search, result appended before should be cleared as well to make space for new result DONE
 - if user enter once again, past result should be cleared to make space for new result that has been entered DONE
-- add cancel button on the search form to clear the text 
+- add cancel button on the search form to clear the text DONE
 
 
 

@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: white;
     height: 100%;
     width: 100%;
@@ -29,8 +29,9 @@ html, body {
 h1 {
     margin: 0;
     color: #fff;
-    font-size: 4em;
-    margin-bottom: 15px;    
+    font-size: 5em;
+    margin-bottom: 15px;   
+    font-weight: 700;
 }
 
 .content {
@@ -64,20 +65,42 @@ a:focus, a:hover {
 .content p {
     font-size: 0.8em;
     color: white;
+    font-style: italic;
 }
 
 #searchForm {
     display: block;
-    margin: 10px auto;
     border-style: none;
     border-bottom: 2px solid #fff;
-    width: 300px;
+    min-width: 300px;
     background-color: transparent;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     /*box-shadow: 0 3px 2px rgba(255, 255, 255, 0.6);*/
 }
+
+.search {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+    color: #fff;
+}
+
+.search .deleteIcon { 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2em;
+  display: none;
+  color: #c9302c;
+}
+
+.search .deleteIcon:hover {
+    opacity: 0.7;
+}
+
 
 @media (max-width: 768px) {
     .content {
@@ -90,4 +113,7 @@ a:focus, a:hover {
     padding-right: 10px;
 }
 
+    h1 {
+        font-size: 4em;
+    }
 }
